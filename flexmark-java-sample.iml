@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-abbreviation:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-anchorlink:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-autolink:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-definition:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-emoji:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-escaped-character:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-footnotes:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-gfm-tables:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-spec-example:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-tables:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-toc:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-typographic:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-wikilink:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-ext-yaml-front-matter:0.4.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="com.vladsch.flexmark:flexmark-test-util:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark-util:0.4.17" level="project" />
+    <orderEntry type="library" name="com.vladsch.flexmark:flexmark:0.4.17" level="project" />
+  </component>
+</module>

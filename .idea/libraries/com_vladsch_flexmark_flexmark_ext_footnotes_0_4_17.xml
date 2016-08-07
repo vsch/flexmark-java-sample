@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="com.vladsch.flexmark:flexmark-ext-footnotes:0.4.17" type="repository">
+    <properties maven-id="com.vladsch.flexmark:flexmark-ext-footnotes:0.4.17" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/flexmark-ext-footnotes-0.4.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flexmark-util-0.4.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flexmark-0.4.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/flexmark-ext-footnotes-0.4.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/flexmark-ext-footnotes-0.4.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
