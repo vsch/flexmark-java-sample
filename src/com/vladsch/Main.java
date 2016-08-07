@@ -38,7 +38,7 @@ public class Main {
         SWING,
         HTML
     }
-    
+
     static class Options {
         public boolean abbreviations = false;
         public boolean autoLinks = true;
@@ -60,6 +60,7 @@ public class Main {
         public boolean tableOfContents = true;
         public boolean jekyllFrontMatter = false;
         public boolean emojiShortcuts = false;
+        public String emojiImageDirectory = "";
     }
 
     private static MutableDataHolder options(ForUseBy purpose, Options options) {
@@ -186,8 +187,11 @@ public class Main {
         if (options.emojiShortcuts) {
             // requires copying the emoji images to some directory and setting it here 
             extensions.add(EmojiExtension.create());
-            //options.set(EmojiExtension.ROOT_IMAGE_PATH, emojiInstallDirectory());
-            //options.set(EmojiExtension.USE_IMAGE_URLS, haveOptions(GITHUB_EMOJI_URL));
+            if (options.emojiImageDirectory.isEmpty()) {
+                dataSet.set(EmojiExtension.USE_IMAGE_URLS, true);
+            } else {
+                dataSet.set(EmojiExtension.ROOT_IMAGE_PATH, options.emojiImageDirectory);
+            }
         }
 
         if (purpose == ForUseBy.JAVAFX) {
@@ -307,7 +311,7 @@ public class Main {
                 "\n" +
                 "---\n" +
                 "\n");
-        
+
         String html = render.render(document);
         System.out.println(html);
     }
